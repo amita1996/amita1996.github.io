@@ -70,7 +70,7 @@
                 </div>
                 <div class="flex-shrink-0">
                     <div class="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center overflow-hidden">
-                        <img src="profile-min.jpg" alt="Amit Aharoni" class="w-56 h-56 lg:w-72 lg:h-72 rounded-full object-cover">
+                        <img src="images/profile-min.jpg" alt="Amit Aharoni" class="w-56 h-56 lg:w-72 lg:h-72 rounded-full object-cover">
                     </div>
                 </div>
             </div>
@@ -85,31 +85,34 @@
                 <div>
                     <h3 class="text-2xl font-bold text-blue-800 mb-4">Background</h3>
                     <div class="space-y-4 text-slate-700">
-                        <p>I am a Data Scientist with a strong foundation in Machine Learning and Deep Learning, honed through academic research and practical industry application.</p>
-                        <p>My academic journey includes a BSc in Computer Science with honors (Dean's List), and an MSc in Computer Science from Ben Gurion University, where my thesis focuses on Deep Learning and Computer Vision.</p>
-                        <p>Professionally, I have valuable experience driving impact as a Data Scientist in an early-stage startup. I am also deeply engaged in Data Science Competitions, consistently achieving top rankings globally across platforms like Kaggle and MAFAT.</p>
+                        <p>
+                            I am a <strong>Data Scientist</strong> with an MSc from Ben Gurion University. My expertise is built on a foundation of academic research and a track record of driving impact within early-stage startups.
+                        </p>
+                        <p>
+                            Beyond the industry, I am an active competitor in global Data Science challenges, consistently achieving top rankings on platforms like Kaggle and MAFAT.
+                        </p>
                     </div>
                 </div>
 
-                <div>
+                <div class="w-full">
                     <h3 class="text-2xl font-bold text-blue-800 mb-4">Technical Expertise</h3>
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-white p-4 rounded-lg border border-blue-100">
-                            <h4 class="font-semibold text-blue-900 mb-2">Core Skills</h4>
-                            <ul class="text-sm text-slate-600 space-y-1">
-                                <li>• Machine & Deep Learning</li>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-white p-6 rounded-lg border border-blue-100 shadow-sm">
+                            <h4 class="font-semibold text-blue-900 mb-3">Core Skills</h4>
+                            <ul class="text-sm text-slate-600 space-y-2">
+                                <li>• Machine Learning</li>
+                                <li>• Deep Learning</li>
                                 <li>• Computer Vision</li>
-                                <li>• LLMs & Graphs</li>
-                                <li>• Data Analysis</li>
+                                <li>• Graphs and GNNs</li>
                             </ul>
                         </div>
-                        <div class="bg-white p-4 rounded-lg border border-blue-100">
-                            <h4 class="font-semibold text-blue-900 mb-2">Tools & Tech</h4>
-                            <ul class="text-sm text-slate-600 space-y-1">
-                                <li>• Python & PySpark</li>
+                        <div class="bg-white p-6 rounded-lg border border-blue-100 shadow-sm">
+                            <h4 class="font-semibold text-blue-900 mb-3">Tools & Tech</h4>
+                            <ul class="text-sm text-slate-600 space-y-2">
+                                <li>• Python</li>
+                                <li>• Pyspark</li>
                                 <li>• Databricks</li>
-                                <li>• AWS</li>
-                                <li>• Git</li>
+                                <li>• Torch</li>
                             </ul>
                         </div>
                     </div>
@@ -124,8 +127,8 @@
 
             <div class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow mb-8">
                 <div class="flex items-center gap-4 mb-4">
-                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
-                        <i data-lucide="briefcase" class="w-6 h-6 text-white"></i>
+                    <div class="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden border border-slate-100 shadow-sm bg-white">
+                        <img src="images/quago.jpeg" alt="Quago Logo" class="w-full h-full object-contain p-1">
                     </div>
                     <div>
                         <h3 class="text-xl font-bold text-blue-900">Data Scientist at Quago</h3>
@@ -133,29 +136,30 @@
                     </div>
                 </div>
                 <p class="text-slate-600 mb-4">
-                    Joined as the 7th employee at Quago, a startup leveraging sensor-based data to detect fraud and anomalous behavior in mobile gaming.
+                    Joined as the 7th employee at Quago, a startup leveraging sensor-based data to detect fraud and anomalous behavior in mobile gaming.<br>
+                    Analyzed sensor data from over 100 million users, processing billions of events daily using PySpark.<br>
+                    Developed production-grade anomaly detection algorithms from scratch, focusing on minimizing false positives.<br>
+                    Led client-facing POCs and internal projects for detection and tooling, enabling deeper analytical insights.
+
                 </p>
-                <ul class="text-slate-600 space-y-2 mb-4">
-                    <li>• Analyzed sensor data from over 100 million users, processing billions of events daily using PySpark.</li>
-                    <li>• Developed production-grade anomaly detection algorithms from scratch, focusing on minimizing false positives.</li>
-                    <li>• Led client-facing POCs and internal projects for detection and tooling, enabling deeper analytical insights.</li>
-                </ul>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="py-16 px-4 bg-white">
+<section id="projects" class="py-16 px-4 bg-white">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 text-center mb-12">Latest Projects</h2>
 
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
                     <div class="h-48 bg-slate-200 relative">
-                        <img src="kaggle%20agent%20swarm.jpg" alt="Kaggle Agents Swarm" class="w-full h-full object-cover">
-                        <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-blue-700">Open Source</div>
+                        <img src="images/kaggle%20agent%20swarm.jpg" alt="Kaggle Agents Swarm" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-xl font-bold text-blue-900 mb-3">Kaggle Agents Swarm</h3>
+                        <div class="flex items-center flex-wrap gap-3 mb-3">
+                            <h3 class="text-xl font-bold text-blue-900">Kaggle Agents Swarm</h3>
+                            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Open Source</span>
+                        </div>
                         <p class="text-slate-600 mb-6 flex-grow">
                             Engineered an automated, multi-agent swarm system leveraging the Kimi LLM to autonomously tackle and solve complex Kaggle competitions. The platform features a fully integrated website UI and a dedicated Telegram bot for seamless, real-time interaction and monitoring.
                         </p>
@@ -167,20 +171,23 @@
 
                 <div class="bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
                     <div class="h-48 bg-slate-200 relative">
-                        <img src="bot%20farm.png" alt="Uncovering Bot Operations" class="w-full h-full object-cover">
-                        <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-blue-700">Research</div>
+                        <img src="images/bot%20farm.png" alt="Uncovering Bot Operations" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-xl font-bold text-blue-900 mb-3">Uncovering Bot Operations</h3>
+                        <div class="flex items-center flex-wrap gap-3 mb-3">
+                            <h3 class="text-xl font-bold text-blue-900">Uncovering Bot Operations</h3>
+                            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Research</span>
+                        </div>
                         <p class="text-slate-600 mb-6 flex-grow">
-                            Spearheaded a comprehensive research initiative to detect sophisticated bot networks. Developed a novel unsupervised grouping algorithm to identify complex user behavior patterns. Led the project end-to-end—from initial problem discovery to production deployment—driving deeper analytical insights and successful client POCs.
+                            Spearheaded a comprehensive research initiative to detect sophisticated bot networks.<br><br>
+                            Developed a novel unsupervised graph grouping algorithm to identify complex user behavior patterns.
+                            Led the project end-to-end, from initial problem discovery to production deployment - driving deeper analytical insights and successful client POCs.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section id="education" class="py-16 px-4 bg-gradient-to-br from-blue-50 to-slate-50">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 text-center mb-12">Education & Research</h2>
@@ -188,8 +195,8 @@
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white p-8 rounded-xl shadow-sm border border-blue-100">
                     <div class="flex items-start gap-4 mb-4">
-                        <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i data-lucide="graduation-cap" class="w-6 h-6 text-white"></i>
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden border border-slate-100 shadow-sm bg-white">
+                            <img src="images/bgu.png" alt="Ben Gurion University Logo" class="w-full h-full object-cover">
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-blue-900">MSc Computer Science</h3>
@@ -198,18 +205,18 @@
                         </div>
                     </div>
                     <p class="text-slate-600">
-                        Focused research in the field of Deep Learning and Computer Vision. Completed my thesis under the supervision of Prof. Tammy Riklin Raviv.
+                        Focused research in the field of Deep Learning and Computer Vision.<br>Completed my thesis under the supervision of Prof. Tammy Riklin Raviv.
                     </p>
                 </div>
 
                 <div class="bg-white p-8 rounded-xl shadow-sm border border-blue-100">
                     <div class="flex items-start gap-4 mb-4">
-                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i data-lucide="book" class="w-6 h-6 text-white"></i>
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden border border-slate-100 shadow-sm bg-white">
+                            <img src="images/openu.jpeg" alt="The Open University of Israel Logo" class="w-full h-full object-cover p-0.5">
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-blue-900">BSc Computer Science</h3>
-                            <p class="text-blue-700">The Open University</p>
+                            <p class="text-blue-700">The Open University of Israel</p>
                             <span class="text-sm text-slate-500">Feb 2021 - July 2023</span>
                         </div>
                     </div>
@@ -224,78 +231,100 @@
         </div>
     </section>
 
-    <section id="competitions" class="py-16 px-4 bg-white">
+<section id="competitions" class="py-16 px-4 bg-white">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 text-center mb-12">Data Science Competitions</h2>
 
             <div class="grid lg:grid-cols-2 gap-8 mb-12">
-                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-sm bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full font-bold flex items-center"><i data-lucide="award" class="w-4 h-4 mr-1"></i> 2nd Place</span>
-                        <span class="text-sm text-slate-500">MAFAT</span>
+                <article class="bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-48 bg-slate-50 relative border-b border-slate-100 p-4">
+                        <img src="images/mafat.png" alt="MAFAT Web Activity Segmentation" class="w-full h-full object-contain">
                     </div>
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">
-                        Web Activity Segmentation
-                    </h3>
-                    <p class="text-slate-600 mb-4">
-                        Achieved 2nd place out of 338 teams (awarded prize).
-                    </p>
-                    <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_im-excited-to-share-that-i-won-2nd-place-activity-7328795173897826307-BCul?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold">
-                        More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
-                    </a>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-sm bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full font-bold flex items-center"><i data-lucide="award" class="w-4 h-4 mr-1"></i> 2nd Place</span>
+                            <span class="text-sm text-slate-500">MAFAT</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">
+                            Web Activity Segmentation
+                        </h3>
+                        <p class="text-slate-600 mb-6 flex-grow">
+                            <strong>Achieved 2nd place out of 338 teams.</strong><br>Implemented a sophisticated feature set and a large-scale ensemble to classify device behaviors from anonymized, label-agnostic web activity logs.<br><strong>Awarded a prize of 10K dollars.</strong>
+                        </p>
+                        <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_im-excited-to-share-that-i-won-2nd-place-activity-7328795173897826307-BCul?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold mt-auto">
+                            More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
                 </article>
 
-                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-bold">Top 1.5%</span>
-                        <span class="text-sm text-slate-500">Kaggle</span>
+                <article class="bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-48 bg-slate-50 relative border-b border-slate-100">
+                        <img src="images/mabe.png" alt="MABe - Social Action Recognition in Mice" class="w-full h-full object-cover">
                     </div>
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">
-                        MABe - Social Action Recognition in Mice
-                    </h3>
-                    <p class="text-slate-600 mb-4">
-                        Finished at rank 19 out of 1,412 teams.
-                    </p>
-                    <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_im-happy-to-share-that-together-with-my-activity-7408944808360202241-l4eN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold">
-                        More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
-                    </a>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-bold">Top 1.5%</span>
+                            <span class="text-sm text-slate-500">Kaggle</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">
+                            MABe - Social Action Recognition in Mice
+                        </h3>
+                        <p class="text-slate-600 mb-6 flex-grow">
+                            <strong>Finished at rank 19 out of 1,412 teams</strong>.<br>Developed a Deep Learning architecture using WaveNet and GRU blocks to classify multi-agent behaviors from noisy keypoint data.
+                        </p>
+                        <div class="flex items-center justify-between mt-auto w-full">
+                            <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_im-happy-to-share-that-together-with-my-activity-7408944808360202241-l4eN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold">
+                                More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                            </a>
+                            <a href="https://github.com/amita1996/MABe-Kaggle-Challenge" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold">
+                                <i data-lucide="github" class="w-4 h-4 mr-1"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>                <article class="bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-48 bg-slate-50 relative border-b border-slate-100 p-4">
+                        <img src="images/fastorslow.png" alt="Google - Fast or Slow?" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-bold">Top 3%</span>
+                            <span class="text-sm text-slate-500">Kaggle</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">
+                            Google - Fast or Slow?
+                        </h3>
+                        <p class="text-slate-600 mb-6 flex-grow">
+                            <strong>Finished at rank 19 out of 616 teams.</strong><br>Implemented a novel Graph Neural Network (GNN) architecture using dual embeddings and residual connections to optimize AI model compiler configurations.
+                        </p>
+                        <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_proud-to-share-our-experience-in-the-kaggle-activity-7132007950700658688-0HW0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold mt-auto">
+                            More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
                 </article>
 
-                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-bold">Top 3%</span>
-                        <span class="text-sm text-slate-500">Kaggle</span>
+                <article class="bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-48 bg-slate-50 relative border-b border-slate-100">
+                        <img src="images/linking.png" alt="Linking Writing Processes to Writing Quality" class="w-full h-full object-cover object-center">
                     </div>
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">
-                        Google - Fast or Slow?
-                    </h3>
-                    <p class="text-slate-600 mb-4">
-                        Finished at rank 19 out of 616 teams.
-                    </p>
-                    <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_proud-to-share-our-experience-in-the-kaggle-activity-7132007950700658688-0HW0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold">
-                        More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
-                    </a>
-                </article>
-
-                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-bold">Top 4%</span>
-                        <span class="text-sm text-slate-500">Kaggle</span>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-bold">Top 4%</span>
+                            <span class="text-sm text-slate-500">Kaggle</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">
+                            Linking Writing Processes to Writing Quality
+                        </h3>
+                        <p class="text-slate-600 mb-6 flex-grow">
+                            <strong>Finished at rank 64 out of 1,876 teams.</strong><br>Extracted behavioral features from keystroke logs and built a diverse ensemble of MLP, Gradient Boosted Trees, and Tabular Transformers to predict essay quality.
+                        </p>
+                        <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_kaggle-activity-7150919791422124032-yeet?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold mt-auto">
+                            More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                        </a>
                     </div>
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">
-                        Linking Writing Processes to Writing Quality
-                    </h3>
-                    <p class="text-slate-600 mb-4">
-                        Finished at rank 64 out of 1,876 teams.
-                    </p>
-                    <a href="https://www.linkedin.com/posts/amit-aharoni-954b301ba_kaggle-activity-7150919791422124032-yeet?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMRnFABbI0pfhHSa9zagSTlujSvTPXuHV0" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-semibold">
-                        More Details <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
-                    </a>
                 </article>
             </div>
         </div>
     </section>
-
     <section id="contact" class="py-16 px-4 bg-gradient-to-br from-blue-50 to-slate-50">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 mb-8">Let's Connect</h2>
